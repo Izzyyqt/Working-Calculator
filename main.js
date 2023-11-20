@@ -8,7 +8,7 @@ function appendNum(num){
 function clearInput() {
     currentInput = '';
     currentOperator= '';
-    document.querySelector(".cal-display").value = ' ';
+    document.querySelector(".cal-display").value = '';
 }
 function delInput() {
     currentInput = currentInput.slice(0, -1);
